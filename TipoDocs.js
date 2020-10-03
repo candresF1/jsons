@@ -1,5 +1,5 @@
 {
-  Cat: [
+  "Cat": [
     {
       id: 1,
       email: 'user1@email.com',
