@@ -1,25 +1,34 @@
 {
-  "Cat": [
+  "type":"select",
+  "label":"Tipo Documento",
+  "options": [
     {
-      "id": "1",
-      "email": "user1@email.com",
-      "username": "3507790103",
-      "password": "1234567890",
-      "userToken": "token123"
+      "name": "Tarjeta de identidad",
+      "value": "3",
+      "Default": "false"
     },
     {
-      "id": "2",
-      "email": "user2@email.com",
-      "username": "user2",
-      "password": "pass1234",
-      "userToken": "token12345"
+      "name": "Cédula de extranjeria",
+      "value": "4",
+      "Default": "false"
+
     },
     {
-      "id": "3",
-      "email": "testuser@email.com",
-      "username": "testuser",
-      "password": "testpass",
-      "userToken": "testtoken"
+      "name": "NIT",
+      "value": "2",
+      "Default": "false"
+    },
+    {
+      "name": "Pasaporte",
+      "value": "5",
+      "Default": "false"
+
+    },
+    {
+      "name": "Cédula de ciudadania",
+      "value": "1",
+      "Default": "true"
     }
-  ]
+  ],
+  "name": "XP000TSSNNTIPDOC"
 }
